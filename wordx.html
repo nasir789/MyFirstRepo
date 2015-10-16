@@ -2,30 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Long Word Game</title>
+    <title>The Agglutinative Game</title>
+      <script src="word.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css"></link>
+
   </head>
-  <script></script>
 
   <body>
+
+    <TD align=center><input type=radio name="sme" value="testOne" onClick="s()" checked>testOne
+  <input type=radio name="sme" value="testTwo" onClick="m()">testTwo
+  <input type=radio name="sme" value="testThree" onClick="e()">testThree</TD>
+
+  <span id="wordTest"></span>
+<div name=title>
     <h1> The Agglutinative Game</h1>
+</div>
     <button name="Next">Next</button>
 
 
-    <button onclick="onTimer()">Clickme</button>
-<div id="mycounter"></div>
+    <button onclick="onTimer()">Click me</button>
+
+  <input type="text"></input>
+
+<div id="mycounter">
 <script>
-i = 60;
-function onTimer() {
-  document.getElementById('mycounter').innerHTML = i;
-  i--;
-  if (i < 0) {
-    alert('Times Up!');
-  }
-  else {
-    setTimeout(onTimer, 1000);
-  }
-}
+// i = 120;
+// //Two minutes in 120 secs
+// function onTimer() {
+//   document.getElementById("mycounter").innerHTML = i;
+//   i;
+//   //^- keep in mind above to use '- -' as countdown and '+ +' to count up
+//   if (i < 0) {
+//     alert("Times Up!");
+//   }
+//   else {
+//     setTimeout(onTimer, 1000);
+//   }
+// }
+
 </script>
+</div>
 
   </body>
 </html>
