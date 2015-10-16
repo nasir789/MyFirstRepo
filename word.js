@@ -11,7 +11,7 @@
 //         .innerHTML = title[i++];    // get the item and increment
 // }, 1000);
 
-var wordBank = ['rotavator', 'perfidiousness', 'subdermatoglyphic', 'sesquipedalian', 'Supercalifragilisticexpialidocius', 'floccinaucinihilipilification', 'pseudopseudohypoparathyroidism', 'parastratiosphecomyiastratiosphecomyioides', 'Aequeosalinocalcalinosetaceoaluminosocupreovitriolic', 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch'];
+var wordBank = ['rotavator', 'perfidiousness', 'subdermatoglyphic', 'sesquipedalian', 'Supercalifragilisticexpialidocius', 'floccinaucinihilipilification', 'pseudopseudohypoparathyroidism', 'parastratiosphecomyiastratiosphecomyioides', 'Aequeosalinocalcamnmlinosetaceoaluminosocupreovitriolic', 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch'];
 
 var i = 0;
 
